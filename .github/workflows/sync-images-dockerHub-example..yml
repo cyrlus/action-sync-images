@@ -34,4 +34,3 @@ jobs:
       run: |
         #!/usr/bin/env bash
         skopeo copy --all docker://registry.k8s.io/xhofe/alist:v1.27.4 docker://docker.io/wxhofe/alist:latest
- 
